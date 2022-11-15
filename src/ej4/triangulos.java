@@ -19,7 +19,7 @@ public class triangulos {
 	}
 
 	private static double triangleArea(double a, double b, double c) {
-		double s = (a + b + c) / 2;
+		double s = (a + b + c) / 2.0;
 		double Area = (s * (s - a) * (s - b) * (s - c));
 		Area = Math.pow(Area, 0.5);
 		return Area;
